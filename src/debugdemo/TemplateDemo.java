@@ -7,4 +7,8 @@ public class TemplateDemo {
             System.out.println("j = " + j);
         }
     }
+
+    public void getException() throws Exception {
+        throw new Exception();
+    }
 }
